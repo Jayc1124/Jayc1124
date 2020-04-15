@@ -25,13 +25,15 @@
     <link rel="stylesheet" type="text/css" href="/css/my.css">
     
     <script src="/libs/jquery/jquery.min.js"></script>
+
+
 {% if theme.baidu_push %}
 <script>
 (function(){
     var bp = document.createElement('script');
     var curProtocol = window.location.protocol.split(':')[0];
     if (curProtocol === 'https') {
-        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
     }
     else {
         bp.src = 'http://push.zhanzhang.baidu.com/push.js';
@@ -40,8 +42,9 @@
     s.parentNode.insertBefore(bp, s);
 })();
 </script>
-
 {% endif %}
+
+
 
     
     
@@ -844,7 +847,7 @@
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             <span id="year">2020</span>
-            <a href="jaycao6.gitee.io" target="_blank">曹杰</a>
+            <a href="https://blog.jaycao.cn" target="_blank">曹杰</a>
             |&nbsp;Powered by&nbsp;<a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1012052963" target="_blank">JayCao</a>
             |&nbsp;Raspessary&nbsp;<a href="https://gitee.com/JayCao6/jaycao6" target="_blank">Forever</a>
           <!-- <br>
